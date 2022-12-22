@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 30px;
+  margin: 30px;
+  display: flex;
+  gap: 50px;
+}
+.side-img {
+  width: 400px;
+}
+.name-in {
+  margin: 40px 0;
+  display: flex;
+  gap: 25px;
+}
+
+.email-in {
+  margin-bottom: 20px;
+}
+
+.email-in div {
+  width: 390px;
+  border: 2px solid gray;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.email-in p {
+  font-size: 1.1rem;
+  color: rgb(180, 170, 170);
+  font-weight: 350;
+}
+.email-in div:focus {
+  outline: 2px solid rgb(0, 89, 255);
+}
+.email-in input {
+  width: 300px;
+  border: 0;
+  outline: 0;
+}
+.email-in p {
+  color: gray;
+  padding-right: 25px;
+}
+/* .email-in button:focus {
+  border-color: blue;
+  
+} */
+
+input {
+  padding: 10px 15px;
+  outline-color: rgb(0, 89, 255);
+  border-radius: 7px;
+  border: 2px solid gray;
+}
+input::placeholder {
+  font-size: 1.1rem;
+  color: rgb(180, 170, 170);
+  font-weight: 350;
+}
+a {
+  text-decoration: none;
+  color: rgb(80, 80, 237);
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s;
+  padding: 5px 10px;
+  color: rgb(0, 81, 255);
+}
+
+a:hover {
+  background-color: rgba(13, 136, 237, 0.164);
+
+  box-sizing: content-box;
+  border-radius: 10px;
+}
+
+.btns {
+  margin-top: 20px;
+  display: flex;
+  gap: 170px;
+  align-items: center;
+}
+
+button {
+  padding: 10px 20px;
+  color: white;
+  background-color: rgb(49, 99, 236);
+  border: 0;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.3s;
+}
+button:hover {
+  background-color: rgb(41, 72, 184);
+}
+
+.links {
+  margin-top: 200px;
+}
+.pass-in {
+  margin-top: 20px;
+  display: flex;
+  gap: 25px;
+}
+
+.img-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-part img {
+  width: 300px;
+}
+
+.pass-text {
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  color: rgb(111, 107, 107);
+}
+
+.img-text {
+  width: 250px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
